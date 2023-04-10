@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='footer_right'>
             <Typography className='footer_copywrite'>
                 Developed and Designed by 
-                <a href='/' target='_blank'> Sean Mangan</a>
+                <a href='/' target='_blank'> Omar Masri</a>
                 <br/>
                 Inspiration from <a href='https://themeforest.net/user/tavonline' target='_blank'>Tavonline</a>
             </Typography>

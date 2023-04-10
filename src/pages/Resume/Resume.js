@@ -8,6 +8,7 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
+import TerminalIcon from '@mui/icons-material/Terminal';
 
 
 import './Resume.css'
@@ -70,8 +71,6 @@ const Resume = () => {
                                 </TimelineItem>
                                 ))}
                             </CustomTimeline>
-                        </Grid>
-                        <Grid item sm={12} md={6} className='timeline_content'>
                             <CustomTimeline icon={<SchoolIcon/>} title={'Education history'}>
                                 {resume_data.education.map((education) =>(
                                 <TimelineItem>
@@ -86,6 +85,28 @@ const Resume = () => {
                                         variant='body2'
                                         className='timeline_description'>
                                             {education.description}
+                                        </Typography>
+                                    </TimelineContent>
+                                </TimelineItem>
+                                ))}
+                            </CustomTimeline>
+                        </Grid>
+                        
+                        <Grid item sm={12} md={6} className='timeline_content'>
+                            <CustomTimeline icon={<TerminalIcon/>} title={'Projects'}>
+                                {resume_data.hackathons.map((hackathons) =>(
+                                <TimelineItem>
+                                    <CustomTimelineSeparator/>
+                                    <TimelineContent>
+                                        <Typography className='timeline_title'>{hackathons.title}</Typography>
+                                        <Typography
+                                        variant='caption'>
+                                            {hackathons.event}
+                                        </Typography>
+                                        <Typography
+                                        variant='body2'
+                                        className='timeline_description'>
+                                            {hackathons.description}
                                         </Typography>
                                     </TimelineContent>
                                 </TimelineItem>

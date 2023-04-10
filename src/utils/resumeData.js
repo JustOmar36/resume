@@ -19,39 +19,19 @@ export const getData = async () => {
     };
 
 export const resume_data = {
-        name : 'Sean Mangan',
+        name : 'Omar Masri',
         title : 'Software Engineer',
-        birthday : 'February 28, 2000',
-        email : 'manga093@umn.edu',
-        address: '866 21st ave se, Minneapolis, Minnesota',
-        phone: '952 356 5315',
+        birthday : 'September 22, 2001',
+        email : 'omar.m.2010masri@gmail.com',
+        address: 'Minneapolis, MN',
+        phone: '612 845 4390',
         socials: {
-            instagram : 'https://www.instagram.com/fresh.mangoz/',
-            linkedin : 'https://www.linkedin.com/in/sean-mangan-5003101a4/',
-            github : 'https://github.com/Sean-Mangan'
+            instagram : 'https://www.instagram.com/omar.masri36/',
+            linkedin : 'https://www.linkedin.com/in/omarmasri36/',
+            github : 'https://github.com/JustOmar36'
         },
-        about: 'Hey there! My name is Sean Mangan and I am currently a student at the university of Minnesota and studying computer science. I am very excited to report that I will be graduating at the end of this current semester (Fall 2021) and even more excited to report that I am looking for employment afterwards.\n\nDespite being freshly graduated, I have plenty of experience in software development. From researching in an academic setting in Oslo (SINTEF) to providing VAN operations here in Minneapolis (SPS commerce) to even helping fellow students as a TA, it feels as if I have seen it all. But I am ready to put even more on my plate and put some more notches on my belt.\n\nPlease reach out if you are at all interested in meeting with me to see if I would be a good fit for your team. I am very excited to work with you in the future!',
+        about: "Hey there! I'm Omar, a software engineer with a passion for building scalable and efficient solutions. I'm currently a student at the University of Minnesota, where I'm studying Computer Science. I've had the wonderful opportunity to learn from and work with the brightest minds during my time at the university. I am happy to announce that I will be graduating as of May 2023 and I'm currently looking for a full-time position as a software engineer.\n\n Though being freshly graduated from college, I have had the wonderful opportunities to work on my software development skills. I've worked with companies such as SPS Commerce in Minneapolis and partaken in many hackathons and competitions.",
         experiences: [
-            {
-                title: 'AI Department Intern',
-                years: 'Summer 2019',
-                company: 'SINTEF',
-                location: {
-                    country: 'Norway',
-                    city: 'Oslo'
-                },
-                description: 'Worked with top artifical intelligence engineers in projects both for academia and Scandinavian industry in Oslo, Norway.'
-            },
-            {
-                title: 'Software Engineering Intern',
-                years: 'Summer 2020',
-                company: 'DOW Jones',
-                location: {
-                    country: 'United States',
-                    city: 'Minneapolis'
-                },
-                description: 'Attended the DOW Jones Summer Series as an alternative to the regular internship program as a result of the COVID-19 pandemic.'
-            },
             {
                 title: 'Software Engineering Intern',
                 years: 'Summer 2021',
@@ -60,19 +40,36 @@ export const resume_data = {
                     country: 'United States',
                     city: 'Minneapolis'
                 },
-                description: 'Worked as a member of the VAN Operations team with the general responsibility of maintaing the integity of the flow of data to and from the largest EDI solution provider.'
+                description: 'Worked as a member of the Corporate Systems team with the general responsibility of maintaing and modernizing legacy code.'
             }
+        ],
+        hackathons: [
+            {
+                title: 'Mentor Matcher',
+                event: 'Tech Jam 2021',
+                description: 'Worked alongside a team for an internal company hackathon. We created a web application that allows employees to communicate company wide regarding finding mentors. The goal was to provide a platform for employees to find mentors and for mentors to find mentees. The application was built using React, Node.js. My duties included constructing API calls and providing Front-End templates.',
+            },
+            {
+                title: 'Foodie',
+                event: 'SPS Commerce Hackathon 2019',
+                description: 'Worked alongside classmates to create a web application that allows users to find recipes based on ingredients they have in their fridge. The application was built using Python and Python Front-End libraries. My duties included constructing the desiging the UI and creating a look-up functionality.',
+            },
+            {
+                title: '2048',
+                event: 'Side Project',
+                description: 'I have an obsession with the game 2048! I decided to create my own version to hone my skills in HTML, CSS and Javascript. The game is fully playable from my GitHub!',
+            },
         ],
         education: [
             {
-                title: 'Lakeville North Highschool',
-                years: '2014-2018',
-                description: 'Graduated summa cum laude in 2018. That year the football team won state as well.'
+                title: 'Pioneer\'s Baccalaureate School',
+                years: '2015-2019',
+                description: 'Graduated with a 4.0 and full tuiton scholarship to the University of Minnesota.'
             },
             {
                 title: 'University of Minnesota',
-                years: '2018-2021',
-                description: 'Computer Science student in the college of Science and Engineering. GPA of 3.508 and an expected graduation of December 2021.'
+                years: '2019-2023',
+                description: 'Computer Science student in the college of Liberal Arts. GPA of 3.208 and an expected graduation of May 2023.'
             },
         ],
         services: [
@@ -95,20 +92,16 @@ export const resume_data = {
         skills: [
             {
                 title: 'Front-end',
-                description: ['ReactJS', 'Javascript', 'WebAssembly', 'Bootstrap']
+                description: ['ReactJS', 'Javascript', 'CSS', 'Bootstrap']
             },
             {
                 title: 'Databases',
-                description: ['SQL', 'Liquibase', 'MongoDB', 'Design']
+                description: ['SQL', 'Liquibase', 'MySQL', 'Design']
             },
             {
                 title: 'Backend',
-                description: ['Python', 'Java', 'C', 'Node']
-            },
-            {
-                title: 'AWS',
-                description: ['Lambda', 'CI/CD', 'EC2', 'RDS']
+                description: ['Python', 'Java', 'C/C++', 'NodeJS']
             }
         ],
-        resume: 'https://docs.google.com/document/d/1zWZ9Z3Uk-NFKUxj3ZTKqZ8dpZ0U7bSr_UmHnijLjY54/edit?usp=sharing',
+        resume: 'https://docs.google.com/document/d/11iqV_b8o23KC0r5RfGVptIFGVQ3BO-hguCslUtPner8/edit?usp=sharing',
     }

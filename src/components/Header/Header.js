@@ -51,7 +51,7 @@ const Header = (props) => {
                     <a href={resume_data.socials.github}><GitHubIcon/></a>
                     <CustomButton text={'Hire Me'} 
                     icon={<WorkIcon/>} 
-                    link={'mailto:manga093@umn.edu?subject=We would like to hire you'}/>
+                    link={'mailto:omar.m.2010masri@gmail.com?subject=We would like to hire you'}/>
                 </div>
             </Navbar.Collapse>
         </Navbar>
