@@ -2,7 +2,7 @@
   "name": "salman_resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JustOmar35.github.io/resume",
+  "homepage": "https://JustOmar35.github.io/resume/src",
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.22",
     "@emotion/react": "^11.4.1",
