@@ -30,7 +30,7 @@ export const resume_data = {
             linkedin : 'https://www.linkedin.com/in/omarmasri36/',
             github : 'https://github.com/JustOmar36'
         },
-        about: "Hey there! I'm Omar, a software engineer with a passion for building scalable and efficient solutions. I'm currently a student at the University of Minnesota, where I'm studying Computer Science. I've had the wonderful opportunity to learn from and work with the brightest minds during my time at the university. I am happy to announce that I will be graduating as of May 2023 and I'm currently looking for a full-time position as a software engineer.\n\n Though being freshly graduated from college, I have had the wonderful opportunities to work on my software development skills. I've worked with companies such as SPS Commerce in Minneapolis and partaken in many hackathons and competitions.",
+        about: "Hey there! I'm Omar, a software engineer with a passion for building scalable and efficient solutions. I'm currently a student at the University of Minnesota, where I'm studying Computer Science. I've had the wonderful opportunity to learn from and work with the brightest minds during my time at the University. I am happy to announce that I will be graduating as of May 2023 and I'm currently looking for a full-time position as a software engineer.\n\n Though being freshly graduated from college, I have had the wonderful opportunities to work on my software development skills. I've worked with companies such as SPS Commerce in Minneapolis and partaken in many hackathons and competitions.",
         experiences: [
             {
                 title: 'Software Engineering Intern',

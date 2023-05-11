@@ -2,7 +2,6 @@ import React from 'react'
 import { Grid, Typography } from '@material-ui/core'
 import { resume_data } from '../../utils/resumeData';
 import CustomTimeline, { CustomTimelineSeparator } from '../../components/Timeline/Timeline';
-import {CustomTimelineItem} from '../../components/Profile/Profile.js';
 import TimelineDot from '@mui/lab/TimelineDot';
 
 

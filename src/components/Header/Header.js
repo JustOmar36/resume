@@ -40,10 +40,10 @@ const Header = (props) => {
                     className={pathName === '/' ? 'header_link_active' : 'header_link'}>
                         Resume
                     </Nav.Link>
-                    <Nav.Link as={NavLink} to='/contactme'
+                    {/* <Nav.Link as={NavLink} to='/contactme'
                     className={pathName === '/contactme' ? 'header_link_active' : 'header_link'}>
                         Contact
-                    </Nav.Link>
+                    </Nav.Link> */}
                 </Nav>
                 <div className='header_right'>
                     <a href={resume_data.socials.linkedin}><LinkedInIcon/></a>
